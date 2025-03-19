@@ -1,0 +1,50 @@
+ .btn {
+    border-radius: 1.6875rem;
+    background-color: #F58A07;
+}
+.container {
+font-family:"Poppins", sans-serif;
+}
+ .human{
+    font-size: 3.125rem;
+    font-weight: 600;
+}
+.lead{
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    letter-spacing: 0%;
+}
+.para-start-up{
+    color: #1D3444;
+}
+.start-heading{
+     font-size: 2.25rem;
+    font-weight: 600; 
+     line-height: 2.75rem;
+    letter-spacing: -3; 
+    color: #0D1317;
+}
+.local-heading, .team-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    letter-spacing: -3;
+    color: #0D1317;
+}
+.card-identity{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 107%;
+    letter-spacing: -3;
+    color: #0D1317;
+}
+.card-list{
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.75rem;
+    letter-spacing: 0%;
+    list-style-type: none;
+    padding-left: 0pt;
+}
+    
