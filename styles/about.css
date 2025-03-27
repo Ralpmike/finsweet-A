@@ -1,17 +1,14 @@
 
   body {
     font-family:"Poppins", sans-serif;
-    /* margin: 0;
-    padding: 0;
-    box-sizing: border-box; */
     }
  .intro{
   padding-top: 7.5rem ;
   }
      
     .btn-2:hover{
-      background-color: #F58A07 !important;
-      color: #FFFFFF !important;
+    background-color: rgba(0, 0, 0, 0.8);
+      border: 1px solid #f58a07;
     }        
  .card{
    background-color: #FFFFFF;
@@ -30,21 +27,44 @@
    background-color:rgba(0, 0, 0, 0.8) !important;
 } 
 
+
+.author-title {
+  color: #f58a07;
+}
+
+.vido-btn{
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.vido-btn:hover{
+  background-color: transparent;
+  border: 1px solid #f58a07;
+}
+
+.play-button{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.play-text{
+  color: #ffffff;
+}
+
+.play-btn{
+  padding: 14px 10px;
+}
+
+.author-name{
+  margin-bottom: 5px;
+}
+
+
  #intro-space {
    width: 100%;
    max-width: 64.875rem;
    
-}
-.social-links, .footer-links, .footer-list, a {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-.footer-links, .footer-list, a {
-  line-height: 2.5rem;
-}
-.footer-list{
-  margin-bottom: 3.75rem; 
 }
 
 @media(min-width: 768px){
