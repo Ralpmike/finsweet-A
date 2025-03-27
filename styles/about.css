@@ -28,39 +28,6 @@
 } 
 
 
-.author-title {
-  color: #f58a07;
-}
-
-.vido-btn{
-  background-color: #ffffff;
-  border: 1px solid transparent;
-  outline: none;
-}
-
-.vido-btn:hover{
-  background-color: transparent;
-  border: 1px solid #f58a07;
-}
-
-.play-button{
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.play-text{
-  color: #ffffff;
-}
-
-.play-btn{
-  padding: 14px 10px;
-}
-
-.author-name{
-  margin-bottom: 5px;
-}
-
-
  #intro-space {
    width: 100%;
    max-width: 64.875rem;
