@@ -29,8 +29,8 @@
 
      
     .btn-2:hover{
-      background-color: #F58A07 !important;
-      color: #FFFFFF !important;
+    background-color: rgba(0, 0, 0, 0.8);
+      border: 1px solid #f58a07;
     }        
  .card{
    background-color: #FFFFFF;
@@ -48,6 +48,7 @@
    color: #FFFFFF !important;
    background-color:rgba(0, 0, 0, 0.8) !important;
 } 
+
 
  #intro-space {
    width: 100%;
