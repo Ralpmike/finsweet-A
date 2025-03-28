@@ -23,41 +23,50 @@
   background-color: #ffcc99;
   color: #ff4500;
 }
-  body {
-    font-family:"Poppins", sans-serif;
-    /* margin: 0;
-    padding: 0;
-    box-sizing: border-box; */
-    }
- .intro{
-  padding-top: 7.5rem ;
-  }
-     
-    .btn-2:hover{
-      background-color: #F58A07 !important;
-      color: #FFFFFF !important;
-    }        
- .card{
-   background-color: #FFFFFF;
-    border-radius: 1.25rem;
- }  
- 
-.pop-up-text{
-   visibility: hidden;
-   border-radius: 1.25rem;
-}
-.team:hover .pop-up-text{
-   visibility: visible !important;
-    cursor: pointer; 
-   opacity: 0.5;
-   color: #FFFFFF !important;
-   background-color:rgba(0, 0, 0, 0.8) !important;
-} 
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+} */
 
- #intro-space {
-   width: 100%;
-   max-width: 64.875rem;
-   
+.contact-section {
+    padding: 40px 0;
+}
+.contact-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+}
+.contact-subtext {
+    font-size: 14px;
+    color: #666;
+}
+.contact-info h6 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.contact-container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.form-control {
+    border-radius: 30px;
+    background-color: #f8f9fa;
+    border: none;
+}
+.btn-submit {
+    border-radius: 30px;
+    background-color: #ff9900;
+    border: none;
+    padding: 10px 20px;
+}
+.map-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 .footer {
   background-color: #063255 !important;
@@ -79,6 +88,7 @@
 .footer-heading {
   font-size: 2.325rem;
   color: #ffffff;
+  padding-top: 500%;
 }
 .footer-socials > a {
   gap: 20px;
@@ -142,22 +152,4 @@
 #bold-list-item{
   text-decoration: none;
   color: white;
-}
-
-@media(min-width: 768px){
-  .heading-text{
-    font-size: 1.6rem;
-  }
-}
-
-@media(min-width: 992px){
-  .heading-text{
-    font-size: 2.5rem;
-  }
-}
-
-@media(min-width: 1200px){
-  .heading-text{
-    font-size: 3rem;
-  }
 }
