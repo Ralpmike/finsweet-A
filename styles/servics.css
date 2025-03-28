@@ -23,6 +23,7 @@
     background-color: #ffcc99;
     color: #ff4500;
   }
+  
 *{
     font-family: "Poppins", sans-serif;
 }
@@ -104,6 +105,14 @@
     border: 1px solid #F58A07;
 }
 
+.blog-header{
+  background-color: #DCEAF5;
+  padding: 5rem 10rem;
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
 .list-point{
     color: #5B5B5B;
     font-size: 1rem;
@@ -113,9 +122,45 @@
 .list-point::marker{
     color: #0D1317;
 }
+
+.header-link{
+  color:#F58A07;
+  text-decoration: none;
+}
+
+.header-link:hover{
+  text-decoration: underline;
+  padding-bottom: 2px;
+}
+
+.blog-content{
+  background-color: #EDF7FF;
+  border-bottom-right-radius: 1.4rem;
+  border-bottom-left-radius: 1.4rem;
+
+}
+
+.blog-item{
+  width: 15rem;
+}
+
+.blog-head-text{
+  color: #0D1317;
+  line-height: 30px;
+}
+
+.blog-text{
+  font-size: 0.89rem;
+  line-height: 26px;
+  color: #5b5b5b;
+}
+
 .footer {
     background-color: #063255 !important;
     padding-bottom: 50px;
+    width: 100%;
+    max-width: 1440px;
+    margin-inline: auto;
     background: url(../images/Shape\ Right.png),
       url(../images/Shape\ Left.png);
     background-repeat: no-repeat;
@@ -219,5 +264,9 @@
     .paragraph2{
         width: auto;
     }
+
+    .blog-header{
+      padding: 1rem 2rem;
+  }
    
 }
