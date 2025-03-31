@@ -1,8 +1,13 @@
+
+body {
+  font-family:"Poppins", sans-serif;
+  }
+
 .nav-link {
   color: #394149 !important;
   font-weight: 600 !important; 
   transition: color 0.3s;
-  font-size: 16px;
+  font-size: 1rem;
   padding-left: 1.25rem;
   
 }
@@ -12,8 +17,8 @@
 .clone-btn {
   background-image: linear-gradient(#F58A071A,#F58A071A) !important;
   color: #F58A07 !important;
-  border-radius: 20px !important;
-  padding: 8px 20px;
+  border-radius: 1.25rem !important;
+  padding: .5rem 1.25rem;
   font-weight: 600;
   border: none;
   transition: background 0.3s ease-in-out;
@@ -23,79 +28,128 @@
   background-image: linear-gradient(#F58A071A,#F58A071A) !important;
   color: #F58A07;
 }
-  body {
-    font-family:"Poppins", sans-serif;
-    }
-
-     
-    .btn-2:hover{
-    background-color: rgba(0, 0, 0, 0.8);
-      border: 1px solid #f58a07;
-    }        
- .card{
-   background-color: #FFFFFF;
-    border-radius: 1.25rem;
- }  
+.card-1 {
+   color: #5B5B5B;
+  font-weight: 400;
  
+}
+ .btn-2:hover{
+   background-color: rgba(0, 0, 0, 0.8);
+   border: 1px solid #f58a07;
+ }        
+ .card-2{
+   background-color: #FFFFFF;
+   border-radius: 1.25rem;
+ }  
 .pop-up-text{
    visibility: hidden;
    border-radius: 1.25rem;
 }
 .team:hover .pop-up-text{
    visibility: visible !important;
-    cursor: pointer; 
+   cursor: pointer; 
    opacity: 0.5;
    color: #FFFFFF !important;
    background-color:rgba(0, 0, 0, 0.8) !important;
 } 
-
-
+.paragraph-3{
+  color: #5B5B5B;
+}
+.card-title-3{
+  color: #0D1317;
+}
  #intro-space {
    width: 100%;
-   max-width: 64.875rem;
-   
+   max-width: 68.75rem;
+   margin: 0 auto;
+   padding: 0 1.5625rem;
 }
+
 .footer {
   background-color: #063255 !important;
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
   background: url(../images/Shape\ Right.png),
     url(../images/Shape\ Left.png);
   background-repeat: no-repeat;
-  background-position: top 38px right, bottom left;
+  background-position: top 2.375rem right, bottom left;
   background-size: 2.375rem 12.5rem, 2.375rem 6.5625rem;
 }
-footer {
-  background-color: #063255;
-  background-image: url(./images/Shape\ Left.png), url(./images/Shape\ Right.png);
-  background-repeat: no-repeat;
-  background-position: bottom left, top 1.875rem right;
-  background-size: 2.6875rem 6.25rem, 2.6875rem 12.5rem;
-}
 
-.last-sec {
-  display: flex;
-  justify-content: space-between;
-}
-
-.policy {
-  display: flex;
-  gap: 1rem;
+@media(max-width: 575px){
+  .heading-text, .heading-text-3, .heading-text-4, .card-title {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .paragraph, .paragraph-2, .paragraph-3, .paragraph-4{
+    font-size: .75rem;
+    font-weight: 300; 
+  }
+  .card-title-3, .card-title-4{
+    font-size: .875rem;
+    font-weight: 400;
+  }
 }
 
 @media(min-width: 768px){
-  .heading-text{
-    font-size: 1.6rem;
+  .heading-text, .heading-text-2{
+    font-size: 1.5625rem;
+    font-weight: 500;
+  }
+  .card-title, .women {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .heading-text-3, .heading-text-4{
+    font-size: 1.625rem;
+    font-weight: 500;
+  }
+  .card-title-3, .card-title-4{
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .paragraph{
+    font-size: 1.0313rem;
+  }
+  .paragraph-2{
+    font-size: .9375rem;
+  }
+  .paragraph-3{
+    font-size: .875rem;
+  }
+  .paragraph-4{
+    font-size: 1.1062rem;
+    font-weight: 400;
   }
 }
 
 @media(min-width: 992px){
   .heading-text{
     font-size: 2.5rem;
+    font-weight: 500;
   }
+  .heading-text-2, .heading-text-3{
+    font-size: 1.875rem;
+    font-weight: 600;
+  }
+  .heading-text-4{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
 }
 
 @media(min-width: 1200px){
   .heading-text{
     font-size: 3rem;
+    font-weight: 600;
   }
+  .heading-text-3{
+    font-size: 2.375rem;
+    font-weight: 600;
+  }
+  .heading-text-4{
+    font-size: 2.625rem;
+    font-weight: 600;
+  }
+  
 }

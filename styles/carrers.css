@@ -1,8 +1,13 @@
-nav-link {
+
+body {
+  font-family:"Poppins", sans-serif;
+  }
+
+.nav-link {
   color: #394149 !important;
-  font-weight: 600 !important; /* Set to normal weight */
+  font-weight: 600 !important; 
   transition: color 0.3s;
-  font-size: 16px;
+  font-size: 1rem;
   padding-left: 1.25rem;
   
 }
@@ -12,8 +17,8 @@ nav-link {
 .clone-btn {
   background-image: linear-gradient(#F58A071A,#F58A071A) !important;
   color:#F58A07 !important;
-  border-radius: 20px !important;
-  padding: 8px 20px;
+  border-radius: 1.25rem !important;
+  padding: .5rem 1.25rem;
   font-weight: 600;
   border: none;
   transition: background 0.3s ease-in-out;
@@ -23,9 +28,6 @@ nav-link {
   background-image: linear-gradient(#F58A071A,#F58A071A) !important;
   color: #F58A07;
 }
-body {
-  font-family:"Poppins", sans-serif;
-  }
 
  .btn a {
   text-decoration: none;
@@ -35,55 +37,96 @@ body {
     background: #DCEAF5;
     border-radius: 1.25rem;
   }
-  #intro-space{
-    width: 100%;
-    max-width: 64.875rem;
-    /* mix-blend-mode: multiply; */
+  .card-2{
+    background-color: #FFFFFF;
+    border-radius: 1.25rem;
   }
-  
-
+ #intro-space {
+  width: 100%;
+  max-width: 68.75rem;
+  margin: 0 auto;
+  padding: 0 1.5625rem;
+  /* mix-blend-mode: multiply; */
+}
   .footer {
     background-color: #063255 !important;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
     background: url(../images/Shape\ Right.png),
       url(../images/Shape\ Left.png);
     background-repeat: no-repeat;
-    background-position: top 38px right, bottom left;
-    background-size: 2.375rem 12.5rem, 2.375rem 6.5625rem;
+    background-position: top 2.375rem right, bottom left;
+    background-size: 2.375rem 12.5rem, 2.375rem 6.5625rem; 
   }
-  footer {
-    background-color: #063255;
-    background-image: url(./images/Shape\ Left.png), url(./images/Shape\ Right.png);
-    background-repeat: no-repeat;
-    background-position: bottom left, top 1.875rem right;
-    background-size: 2.6875rem 6.25rem, 2.6875rem 12.5rem;
+  .card-title{
+    color: #0D1317;
   }
   
-  .last-sec {
-    display: flex;
-    justify-content: space-between;
+@media(max-width: 576px){
+  .heading-text, .heading-text-2{
+    font-size: 1.125rem;
+    font-weight: 500;
   }
-  
-  .policy {
-    display: flex;
-    gap: 1rem;
+  .paragraph, .paragraph-2{
+    font-size: .75rem;
+    font-weight: 400;
   }
-  
+  .card-title, .card-title-2{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
 
-/*  
 @media(min-width: 768px){
-  .hiring-title{
-    font-size: 2rem;
+  .heading-text{
+    font-size: 1.875rem;
+    font-weight: 400;
+  }
+  .heading-text-2{
+    font-size: 1.5625rem;
+    font-weight: 400;
+  }
+  .card-title, .card-title-2{
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+  .paragraph, .paragraph-2{
+    font-size: .8125rem;
+    font-weight: 400;
   }
 } 
+
 @media(min-width: 992px){
-  .hiring-title{
-    font-size: 2.5rem;
+  .heading-text{
+    font-size: 2.6875rem;
+    font-weight: 500;
+  }
+  .heading-text-2, .heading-text-3{
+    font-size: 1.875rem;
+    font-weight: 500;
+  }
+  .card-title, .card-title-2{
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .paragraph{
+    font-size: .9375rem;
+    font-weight: 500;
   }
 }
  
 @media(min-width: 1200px){
-  .hiring-title{
-    font-size: 3rem;
+  .heading-text{
+    font-size: 3.125rem;
+    font-weight: 600;
   }
-}   */
+  .heading-text-2{
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .card-title{
+    font-size: 1.625rem;
+    font-weight: 500;
+  }
+
+  }
+  
