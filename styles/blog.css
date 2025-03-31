@@ -26,6 +26,7 @@
 *{
     font-family: "Poppins", sans-serif;
 }
+
 .blog-header{
     background-color: #DCEAF5;
     padding: 5rem 10rem;
@@ -93,6 +94,9 @@
 .footer {
     background-color: #063255 !important;
     padding-bottom: 50px;
+    width: 100%;
+    max-width: 1440px;
+    margin-inline: auto;
     background: url(../images/Shape\ Right.png),
       url(../images/Shape\ Left.png);
     background-repeat: no-repeat;
